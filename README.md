@@ -1,4 +1,4 @@
-# ender/yunpian-sms
+# 云片网络短信发送PHP SDK
 
 **Note:** 依赖guzzlehttp/guzzle 6，安装本此包时会默认安装此依赖，可能很多其他的第三方库依赖较低版本的guzzle,如guzzle 5
 
@@ -53,7 +53,7 @@ $response=$yunpianSms->getAccountInfo();
 - 推送状态报告
 这是个推送接口，需要使用者提供url，故不作处理
 
--推送回复短信
+- 推送回复短信
 同样是个推送接口
 
 **Note:** 注意部分接口是高级接口，需要申请才能使用，具体可查阅官方文档
