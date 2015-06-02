@@ -1,22 +1,23 @@
 {
-    "name": "league/:package_name",
-    "description": ":package_description",
+    "name": "ender/yunpian-sms",
+    "description": "A php package for yunpian sms RESTFULL API, and provided special support for Laravel5",
     "keywords": [
         "league",
         ":package_name"
     ],
-    "homepage": "https://github.com/thephpleague/:package_name",
+    "homepage": "https://github.com/argb/yunpian-sms",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "ender",
+            "email": "511715505@qq.com",
+            "homepage": "https://www.bigfeettrip.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php" : ">=5.3.0"
+        "php" : ">=5.4.0",
+        "guzzlehttp/guzzle": "^6.0"
     },
     "require-dev": {
         "phpunit/phpunit" : "4.*",
@@ -24,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "League\\Skeleton\\": "src"
+            "Ender\\YunPianSms\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "League\\Skeleton\\Test\\": "tests"
+            "Ender\\YunPianSms\\Test\\": "tests"
         }
     },
     "scripts": {
