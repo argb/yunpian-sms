@@ -1,9 +1,10 @@
 {
     "name": "ender/yunpian-sms",
-    "description": "A php package for yunpian sms RESTFULL API, and provided special support for Laravel5",
+    "description": "A php SDK for yunpian(云片网络短信服务商) sms RESTFULL API",
     "keywords": [
-        "league",
-        ":package_name"
+        "sms",
+        "php",
+        "短信"
     ],
     "homepage": "https://github.com/argb/yunpian-sms",
     "license": "MIT",
