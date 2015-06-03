@@ -7,5 +7,5 @@
  */
 
 return [
-    'apikey'=>'6ee0fc01833c3ff26fd6a62556337d78'
+    'apikey'=>'xxxxx'
 ];
