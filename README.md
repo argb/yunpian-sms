@@ -45,7 +45,7 @@ $response=$yunpianSms->getAccountInfo();
 - YunPianSms
 - YunPianTemplate
 
-分别对应 账户，模板，短信三部分功能，基本覆盖了所有接口。三个接口除外
+分别对应 账户，模板，短信三部分功能，基本覆盖了所有接口。以下三个接口除外：
 
 - 模板接口发短信（不推荐使用，新用户请用发短信）
 这个接口官方不推荐，所以没有封装
@@ -58,7 +58,7 @@ $response=$yunpianSms->getAccountInfo();
 
 **Note:** 注意部分接口是高级接口，需要申请才能使用，具体可查阅官方文档
 
-各个接口与本SDK中方法的对应关系基本上可以从名字上才出来，很直观，实在猜不出来进入到方法里面可以看到对应的官方http接口。
+各个接口与本SDK中方法的对应关系基本上可以从名字上猜出来，很直观，实在猜不出来进入到方法里面可以看到对应的官方http接口。
 
 ### 返回值说明
 所有接口返回php数组格式，最外层包括http status code 和云片网络的完整返回值两部分，以短信发送接口sendMsg返回值为例，格式如下：
@@ -80,10 +80,6 @@ array (
 ```
 data部分就是官方api的完整返回值，此处把json字符串转成了数组形式。
 
-``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
-```
 
 ## Change log
 
